@@ -1,0 +1,18 @@
+fc diff
+diff -u
+blank denote no change
++ denote change in new file not present in old version
+- denote change in old file not present in new version
+
+git log - to view the commit log
+git diff - to compare to commits
+git log --stat - to view the files changes in the commit
+git clone - to download entire repository
+
+Getting Colored Output
+To get colored diff output, run git config --global color.ui auto
+
+git init - initializes the repository
+git status - status of the ropsitory
+git add - adds the file to staging area
+git commit - adds the file to repository
